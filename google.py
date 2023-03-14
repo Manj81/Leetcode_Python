@@ -1,11 +1,5 @@
-from selenium import webdriver
+import webbrowser
 
-# create a new Chrome browser
-browser = webdriver.Chrome()
-
-# navigate to the Google website
-browser.get('https://www.google.com')
-
-# close the browser
-browser.quit()
-
+chrome_path = 'C:/Program Files/Google/Chrome/Application/chrome.exe %s'
+url = 'https://www.google.com'
+webbrowser.get(chrome_path).open(url)
