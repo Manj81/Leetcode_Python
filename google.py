@@ -1,4 +1,10 @@
-import webbrowser
-print('Opening Google website...')
+from selenium import webdriver
 
-webbrowser.open('http://www.google.com') 
+# create a new Chrome browser
+browser = webdriver.Chrome()
+
+# navigate to the Google website
+browser.get('https://www.google.com')
+
+# close the browser
+browser.quit()
