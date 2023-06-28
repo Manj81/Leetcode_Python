@@ -31,4 +31,5 @@ jobs:
     - name: Test Debug
       run: |
         python helloworld.py
+        echo "::debug::Set the Octocat variable"
         
