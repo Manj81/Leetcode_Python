@@ -1,6 +1,6 @@
-print("::error::Hello World Error")
+print("::error Hello World Error")
 print("::debug::Hello World Debug")
-print("::warning::Hello World Warning")
-print("::notice::Hello World Notice")
+print("::warning Hello World Warning")
+print("::notice Hello World Notice")
 
 #comments
