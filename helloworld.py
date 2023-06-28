@@ -1,2 +1,2 @@
-print("Hello World1")
+print("::error::Hello World1")
 #comments
